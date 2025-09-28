@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class GreetingConfig {
 
 	private String greeting;
+	
 	private String defaultName;
 
 	public String getGreeting() {
