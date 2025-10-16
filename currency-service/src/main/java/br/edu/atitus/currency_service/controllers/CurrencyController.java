@@ -22,9 +22,7 @@ import br.edu.atitus.currency_service.repositories.CurrencyRepository;
 public class CurrencyController {
 
 	private final CurrencyRepository repository;
-	
 	private final CurrencyBCClient currencyBCClient;
-	
 	private final CacheManager cacheManager;
 	
 	@Value("${server.port}")
